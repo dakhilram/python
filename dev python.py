@@ -26,7 +26,7 @@ steps:
 
   displayName: 'Use Python $(python.version)'
 
-- script: python "a1.py"
+- script: python "dev python.py"
 
 
 - task: PythonScript@0
